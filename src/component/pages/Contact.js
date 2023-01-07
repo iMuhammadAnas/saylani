@@ -1,12 +1,12 @@
 import React from 'react';
 import './Contact.css';
-import Footer from '../Footer';
-import Navbar from '../Navbar';
+// import Footer from '../Footer';
+// import Navbar from '../Navbar';
 
 export default function Contact() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <section className='contact'>
         <div className='content'>
           <h2>Contact Us</h2>
@@ -46,7 +46,7 @@ export default function Contact() {
                 <span>Full Name</span>
               </div>
               <div className='inputBox'>
-                <input type={'text'} name={''} required />
+                <input type={'email'} name={''} required />
                 <span>Email</span>
               </div>
               <div className='inputBox'>
@@ -60,7 +60,7 @@ export default function Contact() {
           </div>
         </div>
       </section>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
