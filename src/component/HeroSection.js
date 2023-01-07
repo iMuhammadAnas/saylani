@@ -23,7 +23,7 @@ function HeroSection() {
         >
           FACEBOOK PAGE <i className='far fa-play-circle' />
         </Button> */}
-        <a className='lBtn' target={'_blank'} href='https://www.facebook.com/SaylaniMassTraining'>
+        <a className='lBtn' target={'_blank'} rel='noreferrer' href='https://www.facebook.com/SaylaniMassTraining'>
           Facebook Page &nbsp;<i className='fab fa-facebook-f' />
         </a>
       </div>
